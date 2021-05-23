@@ -39,6 +39,9 @@ impl Component for Model {
             <div>
                 <button onclick=self.link.callback(|_| Msg::AddOne)>{ "+1" }</button>
                 <p>{ self.value }</p>
+                <hr />
+
+                <a href="https://github.com/chmoder/yew-sample-app">{"source"}</a>
             </div>
         }
     }
